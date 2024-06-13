@@ -4,15 +4,12 @@ import (
 	"context"
 
 	"github.com/gofiber/fiber/v2"
-	jsoniter "github.com/json-iterator/go"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 
 	"github.com/slot_machine/database"
 	"github.com/slot_machine/models"
 )
-
-var json = jsoniter.ConfigCompatibleWithStandardLibrary
 
 func CreatePlayer(c *fiber.Ctx) error {
 	var player models.Player
