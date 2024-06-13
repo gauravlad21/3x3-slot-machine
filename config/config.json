@@ -1,0 +1,4 @@
+{
+    "MONGO_URI": "mongodb://localhost:27017",
+    "REDIS_URI": "127.0.0.1:6379"
+}
